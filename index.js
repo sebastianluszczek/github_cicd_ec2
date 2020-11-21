@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 app.get('/api', (req, res, next) => {
   res.json({
     success: true,
-    message: 'API working',
+    message: 'API working!',
   });
 });
 

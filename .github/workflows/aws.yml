@@ -54,7 +54,7 @@ jobs:
       id: build-image
       env:
         ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
-        ECR_REPOSITORY: 247826688291.dkr.ecr.eu-central-1.amazonaws.com/github-cicd-test
+        ECR_REPOSITORY: github-cicd-test
         IMAGE_TAG: latest
       run: |
         # Build a docker container and

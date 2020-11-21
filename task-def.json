@@ -29,7 +29,7 @@
       "memoryReservation": null,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "247826688291.dkr.ecr.eu-central-1.amazonaws.com/github-cicd-test:latest",
+      "image": "github-cicd-test:latest",
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": null,

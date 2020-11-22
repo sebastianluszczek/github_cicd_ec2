@@ -29,7 +29,7 @@
       "memoryReservation": null,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "247826688291.dkr.ecr.eu-central-1.amazonaws.com/github-cicd-test:latest",
+      "image": "247826688291.dkr.ecr.eu-central-1.amazonaws.com/github-cicd-test",
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": null,
@@ -53,8 +53,8 @@
   "memory": null,
   "taskRoleArn": "arn:aws:iam::247826688291:role/ecsTaskExecutionRole",
   "compatibilities": ["EC2"],
-  "taskDefinitionArn": "arn:aws:ecs:eu-central-1:247826688291:task-definition/github-cicd-test-1:5",
-  "family": "github-cicd-test-1",
+  "taskDefinitionArn": "arn:aws:ecs:eu-central-1:247826688291:task-definition/github-cicd-task:1",
+  "family": "github-cicd-task",
   "requiresAttributes": [
     {
       "targetId": null,
@@ -79,7 +79,7 @@
   "requiresCompatibilities": ["EC2"],
   "networkMode": null,
   "cpu": null,
-  "revision": 5,
+  "revision": 1,
   "status": "ACTIVE",
   "inferenceAccelerators": null,
   "proxyConfiguration": null,

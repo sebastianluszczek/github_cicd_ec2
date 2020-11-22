@@ -76,6 +76,6 @@ jobs:
         uses: aws-actions/amazon-ecs-deploy-task-definition@v1
         with:
           task-definition: ${{ steps.task-def.outputs.task-definition }}
-          service: github-cicd-test-service
-          cluster: githubcicdtest
+          service: github-cicd-service
+          cluster: github-cicd
           wait-for-service-stability: true

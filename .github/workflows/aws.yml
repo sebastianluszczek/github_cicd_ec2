@@ -77,5 +77,5 @@ jobs:
         with:
           task-definition: ${{ steps.task-def.outputs.task-definition }}
           service: github-cicd-test
-          cluster: github-cicd
+          cluster: github-cicd-test
           wait-for-service-stability: true
